@@ -1,0 +1,31 @@
+.highlight :global .content {
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.highlight :global .tooltip:before,
+.highlight :global .tooltip::after {
+  display: none;
+}
+
+.highlight :global .background {
+  opacity: 1;
+}
+
+.lighttext :global .background {
+  opacity: 0;
+}
+.lighttext :global .content {
+  font-weight: 500;
+}
+
+.lowlight :global .content {
+  opacity: 0.25;
+}
+.lowlight :global .background{
+  opacity: 0.03;
+}
+
+.lightborder :global .content {
+  border: 1px solid;
+}
