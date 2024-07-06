@@ -1,0 +1,2527 @@
+/*
+ * // Extra Small devices (575px and down)
+ */
+
+ @media (max-width: 575px) {
+
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .app-landing-top-shape .circle-dot-right,
+    .app-landing-top-shape .circle-dot-left,
+    .mg-app-landing-banner-right,
+    .app-landing-bottom-shape .app-line-dot-small-bottom,
+    .feature-circle-dot-left,
+    .mg-feature-img-shape {
+        display: none;
+    }
+
+    .header-area-desktop {
+        display: none;
+    }
+
+    .mg-header-area-mobile {
+        display: block;
+    }
+
+    .mg-app-landing-banner-wrap {
+        padding-top: 180px;
+        padding-bottom: 75px;
+        margin-bottom: 35px;
+    }
+
+    .app-landing-top-shape .app-circle-shape {
+        left: auto;
+        right: 50px;
+    }
+
+    .app-landing-bottom-shape .circle-dot-bottom-left {
+        right: 50px;
+        left: auto;
+        bottom: 50px;
+    }
+
+    .mg-app-landing-banner-text h2 {
+        font-size: 40px;
+    }
+
+    .mg-app-landing-banner-text p br {
+        display: none;
+    }
+
+    .mg-why-choose-wrap {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .mg-why-choose-text {
+        margin-bottom: 45px;
+    }
+
+    .why-choice-options:not(.option-four) {
+        margin-bottom: 40px;
+    }
+
+    .mg-why-choose-v2 .why-choice-options.option-three {
+        margin-bottom: 0;
+    }
+
+    .why-choice-options-img-wrap {
+        padding-bottom: 0;
+    }
+
+    .mg-features-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-feature-img-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .feature-two .feature-circle-dot-bottom-left {
+        right: 60px;
+    }
+
+    .mg-download-app-wrap {
+        margin: 35px 0;
+    }
+
+    .mg-download-app-text {
+        padding: 70px 0;
+    }
+
+    .mg-download-app-text h3 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .mg-download-app-screenshot {
+        display: none;
+    }
+
+    .mg-app-screenshot-wrap {
+        padding-top: 35px;
+        padding-bottom: 105px;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next,
+    .mg-app-screenshot-wrap .swiper-prev {
+        top: 107%;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: 35%;
+    }
+
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: 35%;
+    }
+
+    .mg-app-testimonial-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-app-testimonial-text h2 {
+        font-size: 35px;
+    }
+
+    .mg-app-testimonial-slide-container {
+        margin-top: 25px;
+    }
+
+    .mg-testimonial-slide-shape-bottom {
+        right: 0px;
+    }
+
+    .who-work-with-us-col:not(:last-child) {
+        border-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .who-work-with-us-image {
+        padding: 0 40px;
+    }
+
+    .mg-who-work-with-us {
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+
+    .mg-who-work-with-us-text {
+        padding-bottom: 40px;
+    }
+
+    .mg-subscribe-newsletter-wrap.is-full-width {
+        padding: 70px 0;
+        margin-top: 35px;
+    }
+
+    .mg-subscribe-text,
+    .mg-subscribe-form {
+        text-align: center;
+    }
+
+    .mg-subscribe-form {
+        margin-top: 30px;
+    }
+
+    .mg-subscribe-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-subscribe-form form input[type="email"] {
+        text-align: center;
+        width: 90%;
+    }
+
+    .mg-subscribe-form form input[type="submit"] {
+        margin-top: 20px;
+    }
+
+    .mg-footer-wrap {
+        padding: 20px 0 45px;
+    }
+
+    ul.mg-footer-social {
+        margin-bottom: 0;
+    }
+
+    .mg-footer-text {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .mg-footer-text p br,
+    .mg-free-trial-text p br {
+        display: none;
+    }
+
+    /* =================================== */
+    /* ========== SaaS Landing =========== */
+    /* =================================== */
+
+    .mg-saas-landing-banner-wrap {
+        /* margin-top: 90px; */
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    .mg-saas-landing-banner-wrap h3 {
+        font-size: 33px;
+    }
+
+    .mg-saas-landing-banner-image {
+        margin-top: 50px;
+    }
+
+    .mg-saas-landing-banner-bg img {
+        height: 100vh;
+    }
+
+    .saas-landing-top-shape,
+    .saas-landing-middle-shape,
+    .mg-saas-banner-img-right-shape,
+    .mg-feature-small-img-top,
+    .mg-feature-small-img-bottom,
+    .mg-video-intro-img-right-shape,
+    .saas-landing-bottom-shape .circle-dot-bottom-right,
+    .mg-saas-banner-img-left-shape,
+    .mg-saas-landing-banner-text h3 br,
+    .mg-saas-landing-banner-text p br,
+    .mg-why-choose-left-shape,
+    .feature-v2 .mg-features-text-wrapper p br,
+    .mg-video-intro-circle-dot-bottom-left,
+    .mg-video-intro-img-shape,
+    .mg-subscribe-text p br {
+        display: none;
+    }
+
+    .mg-features-text-wrapper h3 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .mg-free-trial-wrap,
+    .mg-testimonial-slider-wrap,
+    .mg-video-intro-wrap,
+    .mg-pricing-plan-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-free-trial {
+        padding: 70px 40px;
+    }
+
+    .mg-free-trial-text {
+        padding-top: 50px;
+    }
+
+    .mg-free-trial-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-video-intro {
+        padding: 70px;
+    }
+
+    .mg-pricing-plan-table {
+        padding: 50px;
+    }
+
+    .mg-pricing-plan-table.table-two,
+    .mg-pricing-plan-table.table-three {
+        margin-top: 40px;
+    }
+
+    .mg-orange .mg-pricing-plan-table.table-two {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .mg-pricing-plan-features ul li {
+        padding-left: 50px;
+    }
+
+    .mg-subscribe-newsletter {
+        padding: 70px 30px;
+    }
+
+    .mg-who-work-with-us.has-top-element {
+        padding-top: 35px;
+    }
+
+
+    /* ======================================= */
+    /* =========== Product Landing =========== */
+    /* ======================================= */
+
+    .mg-product-landing-banner-wrap {
+        padding: 70px 0 35px;
+    }
+
+    .product-landing-image-bottom-shape {
+        display: none;
+    }
+
+    .mg-product-landing-banner-button {
+        margin-top: 50px;
+    }
+
+    .product-landing-top-shape .circle-dot-left {
+        left: 70px;
+        top: 100px;
+    }
+
+    .product-landing-top-shape .circle-dot-right {
+        right: 150px;
+        top: 170px;
+    }
+
+    .product-landing-middle-shape .triangle-shape-left {
+        top: 85%;
+        left: 110px;
+    }
+
+    .product-landing-middle-shape .triangle-shape-right {
+        top: 70%;
+        right: 50px;
+    }
+
+    .mg-product-landing-banner-text img {
+        max-width: 98%;
+    }
+
+    .feature-v3 .mg-product-landing-feature {
+        padding: 70px 50px;
+    }
+
+    .feature-v3 .mg-features-text-wrapper p br {
+        display: none;
+    }
+
+    .feature-v3 .mg-features-text-wrapper {
+        padding-top: 30px;
+    }
+
+    .mg-product-display-wrap {
+        padding: 35px 0;
+    }
+
+    .product-display-top-shape,
+    .product-display-middle-shape,
+    .mg-video-intro-left-shape,
+    .mg-product-more-detail-content p br {
+        display: none;
+    }
+
+    .mg-product-demo-image-hide {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mg-product-demo-image {
+        display: none;
+    }
+
+    .mg-product-video-intro-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-product-more-detail-info-wrap {
+        padding-top: 35px;
+        padding-bottom: 150px;
+    }
+
+    .mg-product-more-detail-content img {
+        max-width: 70%;
+    }
+
+    .mg-product-more-detail-info .nav-pills .nav-item {
+        padding: 0 10px;
+    }
+
+    .mg-product-more-detail-info ul {
+        margin-top: -150px;
+    }
+
+    .mg-pricing-plan-small-description p {
+        font-size: 16px;
+    }
+
+    .mg-subscribe-newsletter-wrap {
+        padding-top: 35px;
+    }
+
+
+    /* =================================== */
+    /* ========= Digital Landing ========= */
+    /* =================================== */
+
+    .mg-digital-landing-banner-wrap {
+        margin-top: 90px;
+        margin-left: 0;
+        margin-right: -3px;
+        margin-bottom: 35px;
+    }
+
+    .mg-digital-landing-banner-right {
+        display: none;
+    }
+
+    .mg-digital-landing-banner-text h2 {
+        font-size: 40px;
+    }
+
+    .mg-digital-landing-banner-text p br,
+    .mg-about-us-text-left h2 br {
+        display: none;
+    }
+
+    .mg-dl-banner-text-shape,
+    .about-us-image-bottom-shape,
+    .mg-pricing-plan-triangle-shape,
+    .mg-subscribe-newsletter-circle-dot-top-left,
+    .mg-subscribe-newsletter-circle-dot-bottom-left,
+    .mg-subscribe-newsletter-shape-middle-right {
+        display: none;
+    }
+
+    .mg-about-us-wrap,
+    .mg-services-wrap,
+    .mg-dl-video-intro-wrap,
+    .mg-recent-project-wrap,
+    .mg-creative-team-wrap,
+    .mg-latest-stories-wrap,
+    .mg-subscribe-newsletter-wrap-simple,
+    .mg-footer-wrap.footer-orange {
+        padding: 35px 0;
+    }
+
+    .mg-about-us-text {
+        padding-top: 30px;
+    }
+
+    .mg-about-us-text-left h2 {
+        font-size: 32px;
+    }
+
+    .mg-about-us-text-left p {
+        font-size: 17px;
+    }
+
+    .mg-services-img-wrap {
+        padding-bottom: 90px;
+    }
+
+    .mg-services-wrap .why-choice-options {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .mg-dl-video-text h2 {
+        font-size: 22px;
+    }
+
+    .mg-dl-video-text-wrap {
+        margin-right: -120px;
+    }
+
+    .dl-play-button {
+        left: -50px;
+        bottom: -10px;
+        max-width: 40%;
+    }
+
+    .grid-item {
+        margin-bottom: 40px;
+    }
+
+    .grid-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .mg-creative-team {
+        padding: 70px 50px;
+    }
+
+    .mg-creative-team-container {
+        margin-top: 50px;
+    }
+
+    .mg-creative-team-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-creative-team-text p br {
+        display: none;
+    }
+
+    .mg-single-team-wrap {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mg-single-stories.single-story-one,
+    .mg-single-stories.single-story-two {
+        margin-bottom: 40px;
+    }
+
+    .mg-subscribe-form-simple {
+        width: 80%;
+    }
+
+    .mg-subscribe-form-simple form input[type="email"] {
+        text-align: center;
+    }
+
+    .mg-footer-orange {
+        padding: 70px 50px;
+    }
+
+    .footer-orange .mg-footer-text.footer-widget-one {
+        margin-top: 0;
+    }
+
+
+
+    /* =================================== */
+    /* =========== About Page ============ */
+    /* =================================== */
+
+    .mg-about-wrap {
+        padding-top: 110px;
+        padding-bottom: 35px;
+    }
+
+    .mg-about-img-wrapper {
+        padding-left: 20px;
+    }
+
+    .mg-about-text-wrapper {
+        margin-top: 150px;
+    }
+
+    .mg-about-text-wrapper h1 {
+        font-size: 30px;
+    }
+
+
+    /* ======================================= */
+    /* =============== Contact =============== */
+    /* ======================================= */
+
+    .mg-contact-details-wrap {
+        margin-top: -70px;
+        padding-bottom: 35px;
+    }
+
+    .mg-contact-area {
+        padding-top: 35px;
+    }
+
+    .mg-contact-form form .submit {
+        width: 100%;
+    }
+
+
+    /* ======================================= */
+    /* ================ Blog ================= */
+    /* ======================================= */
+
+    .mg-blog-wrap {
+        padding: 35px 0;
+    }
+
+    .left-blog .mg-blog {
+        padding-right: 0;
+    }
+
+    .mg-blog-details-wrap {
+        padding: 30px;
+    }
+
+    .mg-blog-sidebar {
+        margin-top: 75px;
+    }
+
+    .left-blog .mg-blog-sidebar {
+        padding-left: 0;
+    }
+
+    .recent_posts .col-sm-3,
+    .comment-item .col-sm-2 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .recent_posts .col-sm-9,
+    .comment-item .col-sm-10 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .right-blog .mg-blog {
+        padding-left: 0;
+    }
+
+    .right-blog .pagination-area {
+        padding-left: 0;
+    }
+
+    .comments-area {
+        padding: 30px;
+    }
+    
+}
+
+
+/*
+ * // Small devices (landscape phones, 576px and up)
+ */
+
+@media (min-width: 576px) {
+    .app-landing-top-shape .circle-dot-right,
+    .app-landing-top-shape .circle-dot-left,
+    .feature-circle-dot-left,
+    .mg-feature-img-shape {
+        display: none;
+    }
+
+    .header-area-desktop {
+        display: none;
+    }
+
+    .mg-header-area-mobile {
+        display: block;
+    }
+
+    .mg-app-landing-banner-wrap {
+        padding-top: 180px;
+        padding-bottom: 75px;
+        margin-bottom: 35px;
+    }
+
+    .app-landing-top-shape .app-circle-shape {
+        left: auto;
+        right: 50px;
+    }
+
+    .app-landing-bottom-shape .circle-dot-bottom-left {
+        right: 50px;
+        left: auto;
+        bottom: 50px;
+    }
+
+    .mg-app-landing-banner-text h2 {
+        font-size: 30px;
+    }
+
+    .mg-app-landing-banner-text p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .mg-app-landing-banner-text p br {
+        display: none;
+    }
+
+    .mg-app-landing-banner-right {
+        margin-left: -80px;
+    }
+
+    .mg-why-choose-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-why-choose-text {
+        margin-bottom: 40px;
+    }
+
+    .mg-why-choose-v2 .mg-why-choose-text {
+        margin-bottom: 60px;
+    }
+
+    .why-choice-options:not(.option-four) {
+        margin-bottom: 40px;
+    }
+
+    .why-choice-options-img-wrap {
+        padding-bottom: 0;
+    }
+
+    .mg-features-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-feature-img-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .mg-features-text-wrapper h3,
+    .mg-download-app-text h3 {
+        font-size: 30px;
+    }
+
+    .feature-two .feature-circle-dot-bottom-left {
+        right: 60px;
+    }
+
+    .mg-download-app-wrap {
+        margin: 35px 0;
+    }
+
+    .mg-download-app-text {
+        padding: 70px 0;
+    }
+
+    .mg-download-app-screenshot {
+        display: none;
+    }
+
+    .mg-app-screenshot-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: 0;
+    }
+
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: 0;
+    }
+
+    .mg-app-testimonial-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-app-testimonial-text h2 {
+        font-size: 45px;
+    }
+
+    .mg-app-testimonial-slide-container {
+        margin-top: 25px;
+    }
+
+    .mg-testimonial-slide-shape-bottom {
+        right: 0px;
+    }
+
+    .mg-who-work-with-us {
+        padding-bottom: 35px;
+    }
+
+    .mg-who-work-with-us-text {
+        padding-bottom: 40px;
+    }
+
+    .who-work-with-us-col:not(:last-child) {
+        border-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .who-work-with-us-image {
+        padding: 0 50px;
+    }
+
+    .mg-subscribe-newsletter-wrap.is-full-width {
+        padding: 70px 0;
+        margin-top: 35px;
+    }
+
+    .mg-subscribe-text, .mg-subscribe-form {
+        text-align: center;
+    }
+
+    .mg-subscribe-form {
+        margin-top: 50px;
+    }
+
+    .mg-footer-wrap {
+        padding: 20px 0 45px;
+    }
+
+    ul.mg-footer-social {
+        margin-bottom: 0;
+    }
+
+    .mg-footer-text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .mg-footer-text h3 {
+        font-size: 20px;
+    }
+
+    .mg-footer-text p,
+    .mg-footer-text ul li {
+        font-size: 14px;
+    }
+
+    .mg-footer-text p br {
+        display: none;
+    }
+
+    .mg-footer-social li a {
+        padding: 9px 5px;
+    }
+
+    /* =================================== */
+    /* ========== SaaS Landing =========== */
+    /* =================================== */
+
+    .mg-saas-landing-banner-wrap {
+        /* margin-top: 90px; */
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    .mg-saas-landing-banner-wrap h3 {
+        font-size: 36px;
+    }
+
+    .mg-saas-landing-banner-image {
+        margin-top: 50px;
+    }
+
+    .mg-saas-landing-banner-bg img {
+        height: 100vh;
+    }
+
+    .saas-landing-top-shape,
+    .saas-landing-middle-shape,
+    .mg-saas-banner-img-right-shape,
+    .mg-feature-small-img-top,
+    .mg-feature-small-img-bottom,
+    .mg-video-intro-img-right-shape,
+    .saas-landing-bottom-shape .circle-dot-bottom-right,
+    .mg-saas-banner-img-left-shape,
+    .mg-saas-landing-banner-text h3 br,
+    .mg-saas-landing-banner-text p br,
+    .mg-why-choose-left-shape,
+    .feature-v2 .mg-features-text-wrapper p br,
+    .mg-video-intro-circle-dot-bottom-left,
+    .mg-video-intro-img-shape,
+    .mg-subscribe-text p br {
+        display: none;
+    }
+
+    .mg-features-text-wrapper h3 {
+        margin-top: 20px;
+    }
+
+    .mg-free-trial-wrap,
+    .mg-testimonial-slider-wrap,
+    .mg-video-intro-wrap,
+    .mg-pricing-plan-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-free-trial {
+        padding: 70px;
+    }
+
+    .mg-free-trial-text {
+        padding-top: 50px;
+    }
+
+    .mg-free-trial-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-pricing-plan-table {
+        padding: 50px;
+    }
+
+    .mg-video-intro {
+        padding: 70px;
+    }
+
+    .mg-pricing-plan-table.table-two,
+    .mg-pricing-plan-table.table-three {
+        margin-top: 40px;
+    }
+
+    .mg-pricing-plan-features ul li {
+        padding-left: 50px;
+    }
+
+    .mg-subscribe-newsletter {
+        padding: 70px 30px;
+    }
+
+    .mg-who-work-with-us.has-top-element {
+        padding-top: 35px;
+    }
+
+    /* ======================================= */
+    /* =========== Product Landing =========== */
+    /* ======================================= */
+
+    .mg-product-landing-banner-wrap {
+        padding: 70px 0 35px;
+    }
+
+    .mg-product-landing-banner-button {
+        margin-top: 50px;
+    }
+
+    .product-landing-image-bottom-shape {
+        display: none;
+    }
+
+    .product-landing-top-shape .circle-dot-left {
+        left: 70px;
+        top: 100px;
+    }
+
+    .product-landing-top-shape .circle-dot-right {
+        right: 150px;
+        top: 170px;
+    }
+
+    .product-landing-middle-shape .triangle-shape-left {
+        top: 85%;
+        left: 110px;
+    }
+
+    .product-landing-middle-shape .triangle-shape-right {
+        top: 70%;
+        right: 50px;
+    }
+
+    .mg-product-landing-banner-text img {
+        max-width: 98%;
+    }
+
+    .feature-v3 .mg-product-landing-feature {
+        padding: 70px 50px;
+    }
+
+    .feature-v3 .mg-features-text-wrapper p br {
+        display: none;
+    }
+
+    .feature-v3 .mg-features-text-wrapper {
+        padding-top: 30px;
+    }
+
+    .mg-product-display-wrap {
+        padding: 35px 0;
+    }
+
+    .product-display-top-shape,
+    .product-display-middle-shape,
+    .mg-video-intro-left-shape,
+    .mg-product-more-detail-content p br {
+        display: none;
+    }
+
+    .mg-product-demo-image-hide {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mg-product-demo-image {
+        display: none;
+    }
+
+    .mg-product-video-intro-wrap {
+        padding: 35px 0;
+    }
+
+    .mg-product-more-detail-info-wrap {
+        padding-top: 35px;
+        padding-bottom: 110px;
+    }
+
+    .mg-product-more-detail-content img {
+        max-width: 70%;
+    }
+
+    .mg-product-more-detail-info .nav-pills .nav-item {
+        padding: 0 10px;
+    }
+
+    .mg-product-more-detail-info ul {
+        margin-top: -110px;
+    }
+
+    .mg-subscribe-newsletter-wrap {
+        padding-top: 35px;
+    }
+
+
+    /* =================================== */
+    /* ========= Digital Landing ========= */
+    /* =================================== */
+
+    .mg-digital-landing-banner-wrap {
+        margin-top: 90px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .mg-digital-landing-banner-right {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .mg-digital-landing-banner-text h2 {
+        font-size: 30px;
+    }
+
+    .mg-digital-landing-banner-text p {
+        font-weight: 300;
+    }
+
+    .mg-digital-landing-banner-text p br,
+    .mg-about-us-text-left h2 br {
+        display: none;
+    }
+
+    .about-us-image-bottom-shape,
+    .mg-pricing-plan-triangle-shape,
+    .mg-subscribe-newsletter-circle-dot-top-left,
+    .mg-subscribe-newsletter-circle-dot-bottom-left,
+    .mg-subscribe-newsletter-shape-middle-right {
+        display: none;
+    }
+
+    .mg-about-us-wrap,
+    .mg-services-wrap,
+    .mg-dl-video-intro-wrap,
+    .mg-recent-project-wrap,
+    .mg-creative-team-wrap,
+    .mg-latest-stories-wrap,
+    .mg-subscribe-newsletter-wrap-simple,
+    .mg-footer-wrap.footer-orange {
+        padding: 35px 0;
+    }
+
+    .mg-about-us-text {
+        padding-top: 30px;
+    }
+
+    .mg-about-us-text-left h2 {
+        font-size: 40px;
+    }
+
+    .mg-about-us-text-left p {
+        font-size: 17px;
+    }
+
+    .mg-services-img-wrap {
+        padding-bottom: 90px;
+    }
+
+    .mg-services-wrap .why-choice-options {
+        margin-top: 0;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .mg-orange .mg-pricing-plan-table.table-two {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .mg-dl-video-text h2 {
+        font-size: 30px;
+    }
+
+    .mg-dl-video-text-wrap {
+        margin-right: -120px;
+    }
+
+    .dl-play-button {
+        left: -50px;
+        bottom: -10px;
+        max-width: 40%;
+    }
+
+    .grid-item {
+        margin-bottom: 40px;
+    }
+
+    .grid-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .mg-creative-team {
+        padding: 70px 50px;
+    }
+
+    .mg-creative-team-container {
+        margin-top: 50px;
+    }
+
+    .mg-creative-team-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-creative-team-text p br {
+        display: none;
+    }
+
+    .mg-single-team-wrap {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mg-single-stories.single-story-one,
+    .mg-single-stories.single-story-two {
+        margin-bottom: 40px;
+    }
+
+    .mg-subscribe-form-simple {
+        width: 80%;
+    }
+
+    .mg-subscribe-form-simple form input[type="email"] {
+        text-align: center;
+    }
+
+    .mg-footer-orange {
+        padding: 70px 20px;
+    }
+
+    .footer-orange .mg-footer-text.footer-widget-one {
+        margin-top: 0;
+    }
+
+
+    /* =================================== */
+    /* =========== About Page ============ */
+    /* =================================== */
+
+    .mg-about-wrap {
+        padding-top: 110px;
+        padding-bottom: 35px;
+    }
+
+    .mg-about-img-wrapper {
+        padding-left: 20px;
+    }
+
+    .mg-about-text-wrapper {
+        margin-top: 150px;
+    }
+
+    .mg-about-text-wrapper h1 {
+        font-size: 30px;
+    }
+
+
+    /* ======================================= */
+    /* =============== Contact =============== */
+    /* ======================================= */
+
+    .mg-contact-details-wrap {
+        margin-top: -70px;
+        padding-bottom: 35px;
+    }
+
+    .mg-contact-area {
+        padding-top: 35px;
+    }
+
+    .mg-contact-form form .submit {
+        width: 100%;
+    }
+
+    /* ======================================= */
+    /* ================ Blog ================= */
+    /* ======================================= */
+
+    .mg-blog-wrap {
+        padding: 35px 0;
+    }
+
+    .left-blog .mg-blog {
+        padding-right: 0;
+    }
+
+    .mg-blog-details-wrap {
+        padding: 30px;
+    }
+
+    .mg-blog-sidebar {
+        margin-top: 75px;
+    }
+
+    .left-blog .mg-blog-sidebar {
+        padding-left: 0;
+    }
+
+    .right-blog .mg-blog {
+        padding-left: 0;
+    }
+
+    .right-blog .pagination-area {
+        padding-left: 0;
+    }
+    
+}
+
+/*
+ * // Medium devices (tablets, 768px and up)
+ */
+
+@media (min-width: 768px) {
+
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .mg-app-landing-banner-wrap {
+        margin-bottom: 50px;
+    }
+
+    .header-area-desktop,
+    .mg-app-landing-banner-text p br,
+    .mg-footer-text p br {
+        display: none;
+    }
+
+    .mg-header-area-mobile,
+    .mg-app-landing-banner-right,
+    .app-landing-top-shape .circle-dot-right,
+    .app-landing-top-shape .circle-dot-left,
+    .mg-app-landing-banner-right,
+    .app-landing-bottom-shape .app-line-dot-small-bottom,
+    .feature-circle-dot-left, .mg-feature-img-shape,
+    .mg-download-app-screenshot {
+        display: block;
+    }
+
+    .app-landing-top-shape .circle-dot-left {
+        left: 80px;
+        top: 180px;
+    }
+
+    .app-landing-top-shape .circle-dot-right {
+        right: 80px;
+        top: 160px;
+    }
+
+    .mg-app-landing-banner-text h2 {
+        font-size: 40px;
+    }
+
+    .app-landing-bottom-shape .circle-dot-bottom-left {
+        bottom: 50px;
+        left: 50px;
+        right: auto;
+    }
+
+    .app-landing-top-shape .app-circle-shape {
+        left: 33%;
+    }
+
+    .mg-why-choose-wrap,
+    .mg-app-screenshot-wrap,
+    .mg-app-testimonial-wrap,
+    .mg-who-work-with-us {
+        padding: 50px 0;
+    }
+
+    .why-choice-options.option-two,
+    .why-choice-options.option-three {
+        margin-top: 0;
+    }
+
+    .mg-features-wrap {
+        padding: 50px 0;
+    }
+
+    .mg-feature-img-shape {
+        right: 60px;
+    }
+
+    .mg-download-app-text {
+        padding: 70px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .mg-download-app-text h3 {
+        margin-top: 0;
+    }
+
+    .mg-download-app-screenshot img {
+        max-width: 58%;
+    }
+
+    .mg-download-app-wrap {
+        margin: 50px 0;
+    }
+
+    .mg-download-app-screenshot {
+        bottom: 5px;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: 0;
+    }
+
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: 0;
+    }
+
+    .mg-app-testimonial-text h2 {
+        font-size: 30px;
+    }
+
+    .who-work-with-us-col:nth-child(4),
+    .who-work-with-us-col:nth-child(5) {
+        margin-top: 25px;
+    }
+
+    .mg-subscribe-text,
+    .mg-subscribe-form,
+    .mg-footer-text {
+        text-align: center;
+    }
+
+    .mg-subscribe-form,
+    .mg-subscribe-newsletter-wrap.is-full-width {
+        margin-top: 50px;
+    }
+
+    .mg-subscribe-newsletter-wrap.is-full-width {
+        padding: 100px 0;
+    }
+
+    .mg-subscribe-text h3 {
+        font-size: 30px;
+    }
+
+    .mg-footer-wrap {
+        padding: 50px 0 75px;
+    }
+
+    .mg-footer-orange {
+        padding: 70px 50px;
+    }
+
+    .mg-footer-text {
+        margin-top: 0px;
+        margin-top: 50px;
+    }
+
+    .mg-footer-text h3 {
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    .mg-footer-text p,
+    .mg-footer-text ul li {
+        font-size: 18px;
+    }
+
+    .mg-footer-social li a {
+        padding: 5px;
+    }
+
+
+    /* =================================== */
+    /* ========== SaaS Landing =========== */
+    /* =================================== */
+
+    .mg-saas-landing-banner-wrap {
+        padding-bottom: 50px;
+    }
+
+    .mg-who-work-with-us.has-top-element {
+        padding-top: 50px;
+    }
+
+    .mg-saas-landing-banner-text h3 br,
+    .mg-saas-landing-banner-text p br,
+    .mg-subscribe-text p br {
+        display: block;
+    }
+
+    .who-work-with-us-col:last-child,
+    .who-work-with-us-col:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    .mg-why-choose-v2 .why-choice-options-img-wrap {
+        padding-bottom: 0;
+    }
+
+    .mg-why-choose-v2 .why-choice-options-img-wrap:after,
+    .mg-why-choose-bottom-shape,
+    .feature-v2 .mg-features-text-wrapper ul,
+    .mg-free-trial-text h3 br,
+    .mg-pricing-plan-small-description,
+    .mg-pricing-plan-bottom-shape {
+        display: none;
+    }
+
+    .mg-free-trial-wrap,
+    .mg-testimonial-slider-wrap,
+    .mg-video-intro-wrap,
+    .mg-pricing-plan-wrap {
+        padding: 50px 0;
+    }
+
+    .mg-free-trial-text {
+        text-align: center;
+    }
+
+    .mg-pricing-plan-table {
+        padding: 30px 20px;
+        margin: 0 -5px;
+    }
+
+    .mg-pricing-plan-features {
+        margin-top: 20px;
+    }
+
+    .mg-pricing-plan-features ul li {
+        padding-left: 35px;
+        font-size: 15px;
+    }
+
+    .mg-pricing-plan-features .mg-btn-simple {
+        margin-top: 0;
+    }
+
+    .mg-pricing-plan-table.table-two,
+    .mg-pricing-plan-table.table-three {
+        margin-top: 0;
+    }
+
+    .mg-creative-team-text h3 br,
+    .mg-creative-team-text p br {
+        display: none;
+    }
+    
+    /* ======================================= */
+    /* =========== Product Landing =========== */
+    /* ======================================= */
+
+    .mg-product-landing-banner-wrap {
+        padding-bottom: 50px;
+    }
+
+    .mg-features-wrap.feature-v3 .mg-feature-img-wrapper {
+        text-align: center;
+    }
+
+    .mg-features-wrap.feature-v3 .mg-feature-img-wrapper img {
+        max-width: 80%;
+    }
+
+    .feature-v3 .mg-product-landing-feature {
+        padding: 70px 100px;
+    }
+
+    .mg-product-display-wrap,
+    .mg-product-video-intro-wrap {
+        padding: 50px 0;
+    }
+
+    .mg-product-more-detail-info-wrap,
+    .mg-subscribe-newsletter-wrap {
+        padding-top: 50px;
+    }
+
+    .mg-product-more-detail-info-wrap {
+        padding-bottom: 130px;
+    }
+
+
+    /* =================================== */
+    /* ========= Digital Landing ========= */
+    /* =================================== */
+
+    .mg-digital-landing-banner-wrap {
+        margin-top: 90px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .mg-digital-landing-banner-right {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .mg-digital-landing-banner-text h2 {
+        font-size: 70px;
+    }
+
+    .mg-digital-landing-banner-text p {
+        font-weight: 400;
+    }
+
+    .mg-about-us-text-left h2 br {
+        display: block;
+    }
+
+    .mg-dl-banner-left-shape .circle-dot-left,
+    .mg-dl-banner-left-shape .triangle-shape-left,
+    .mg-dl-banner-left-shape .circle-dot-right,
+    .mg-dl-banner-right-shape .triangle-shape-right {
+        display: none;
+    }
+
+    .about-us-image-bottom-shape,
+    .mg-pricing-plan-triangle-shape,
+    .mg-subscribe-newsletter-circle-dot-top-left,
+    .mg-subscribe-newsletter-circle-dot-bottom-left,
+    .mg-subscribe-newsletter-shape-middle-right {
+        display: block;
+    }
+
+    .mg-about-us-wrap,
+    .mg-services-wrap,
+    .mg-dl-video-intro-wrap,
+    .mg-recent-project-wrap,
+    .mg-creative-team-wrap,
+    .mg-latest-stories-wrap,
+    .mg-subscribe-newsletter-wrap-simple,
+    .mg-footer-wrap.footer-orange {
+        padding: 50px 0;
+    }
+
+    .mg-about-us-text-left h2 br {
+        display: none;
+    }
+
+    .mg-creative-team-text p br {
+        display: block;
+    }
+
+    .mg-services-img-wrap {
+        margin: 0 100px;
+    }
+
+    .mg-orange .mg-pricing-plan-table.table-two {
+        margin-bottom: 0;
+    }
+
+    .mg-dl-video-text h2 {
+        font-size: 45px;
+    }
+
+    .single-story-one {
+        position: relative;
+    }
+
+    .mg-single-stories-details-wrap {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        background-color: rgb(255 255 255 / 90%);
+        padding: 30px 50px;
+        border-radius: 0 20px 0 0;
+    }
+
+    .mg-single-stories.single-story-two {
+        margin-bottom: 0;
+    }
+
+    .single-story-one .single-stories-date {
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+    }
+
+    .mg-subscribe-newsletter-circle-dot-top-left {
+        left: 50px;
+        top: 0;
+    }
+
+    .mg-subscribe-newsletter-shape-middle-right {
+        right: 0px;
+        top: 0%;
+    }
+
+    .mg-subscribe-newsletter-circle-dot-bottom-left {
+        left: 100px;
+        bottom: 0px;
+    }
+
+
+    /* =================================== */
+    /* =========== About Page ============ */
+    /* =================================== */
+
+    .mg-about-wrap {
+        padding-top: 110px;
+        padding-bottom: 85px;
+    }
+
+    .mg-about-img-wrapper {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .mg-about-text-wrapper {
+        margin-top: 0;
+    }
+
+    .mg-about-img-shape {
+        display: none;
+    }
+
+
+    /* ======================================= */
+    /* =============== Contact =============== */
+    /* ======================================= */
+
+    .mg-contact-details-wrap {
+        margin-top: -70px;
+        padding-bottom: 50px;
+    }
+
+    .mg-contact-area {
+        padding-top: 50px;
+    }
+
+    /* ======================================= */
+    /* ================ Blog ================= */
+    /* ======================================= */
+
+    .mg-blog-wrap {
+        padding: 50px 0;
+    }
+}
+
+/*
+ * // Large devices (desktops, 992px and up)
+ */
+
+@media (min-width: 992px) {
+
+    .section-heading {
+        font-size: 35px;
+    }
+
+    .mg-header-area-mobile {
+        display: none;
+    }
+
+    .header-area-desktop {
+        display: block;
+    }
+    
+    .mg-app-landing-banner-wrap {
+        padding-top: 200px;
+        padding-bottom: 150px;
+        margin: 0 0 50px;
+    }
+
+    .mg-app-landing-banner-text p br {
+        display: block;
+    }
+
+    .app-landing-top-shape .circle-dot-left {
+        left: 50px;
+        top: 220px;
+    }
+
+    .app-landing-top-shape .circle-dot-right {
+        right: 80px;
+        top: 160px;
+    }
+
+    .app-landing-bottom-shape .circle-dot-bottom-left {
+        bottom: 80px;
+    }
+
+    .mg-app-landing-banner-text h2 {
+        font-size: 70px;
+    }
+
+    .mg-app-landing-banner-text p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .why-choice-options.option-one,
+    .why-choice-options.option-two {
+        margin-bottom: 0;
+    }
+
+    .mg-feature-small-img-top,
+    .mg-feature-small-img-bottom {
+        display: block;
+    }
+
+    .mg-download-app-text {
+        padding: 100px 0;
+    }
+
+    .mg-features-text-wrapper h3 {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+    .mg-download-app-screenshot img {
+        max-width: 60%;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: 0;
+    }
+
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: 0;
+    }
+
+    .mg-app-testimonial-text h2 {
+        font-size: 50px;
+    }
+
+    .mg-feature-img-shape {
+        right: 70px;
+    }
+
+    .mg-download-app-screenshot {
+        bottom: -5px;
+    }
+
+    .mg-download-app-text h3,
+    .mg-subscribe-text h3 {
+        font-size: 50px;
+    }
+
+    .mg-who-work-with-us-text {
+        padding-bottom: 30px;
+    }
+
+    .who-work-with-us-col:nth-child(4),
+    .who-work-with-us-col:nth-child(5) {
+        margin-top: 0;
+    }
+
+    .mg-subscribe-text {
+        text-align: left;
+    }
+
+    .mg-subscribe-form {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .mg-footer-orange {
+        padding: 100px 110px;
+    }
+
+    .mg-footer-text {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .mg-footer-text p br {
+        display: block;
+    }
+
+
+    /* =================================== */
+    /* ========== SaaS Landing =========== */
+    /* =================================== */
+
+    .saas-landing-top-shape,
+    .saas-landing-middle-shape,
+    .mg-saas-banner-img-right-shape,
+    .mg-feature-small-img-top,
+    .mg-feature-small-img-bottom,
+    .mg-video-intro-img-right-shape,
+    .saas-landing-bottom-shape .circle-dot-bottom-right,
+    .mg-saas-banner-img-left-shape,
+    .mg-saas-landing-banner-text h3 br,
+    .mg-saas-landing-banner-text p br,
+    .feature-v2 .mg-features-text-wrapper p br,
+    .mg-video-intro-circle-dot-bottom-left,
+    .mg-video-intro-img-shape,
+    .mg-subscribe-text p br {
+        display: block;
+    }
+
+    .mg-saas-landing-banner-wrap {
+        padding-top: 100px;
+    }
+
+    .mg-saas-landing-banner-wrap h3 {
+        font-size: 55px;
+    }
+
+    .mg-saas-landing-banner-image {
+        margin-top: 70px;
+    }
+
+    .saas-landing-top-shape .circle-dot-left {
+        left: 180px;
+    }
+
+    .saas-landing-top-shape .circle-dot-right {
+        right: 200px;
+    }
+
+    .saas-landing-middle-shape .triangle-shape-left {
+        top: 290px;
+        left: 230px;
+    }
+
+    .saas-landing-middle-shape .triangle-shape-right {
+        top: 290px;
+        right: 240px;
+    }
+
+    .mg-saas-banner-img-left-shape {
+        left: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .mg-saas-banner-img-right-shape {
+        right: -30px;
+        bottom: -110px;
+    }
+
+    .who-work-with-us-col:not(:last-child) {
+        border-right: 0;
+        margin-bottom: 0;
+    }
+
+    .mg-features-wrap.feature-one.feature-v2 {
+        padding-top: 100px;
+    }
+
+    .mg-features-wrap.feature-two.feature-v2 {
+        padding-bottom: 70px;
+    }
+
+    .mg-free-trial {
+        padding: 100px 70px;
+    }
+
+    .mg-free-trial-text {
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 0;
+    }
+
+    .mg-free-trial-text h3 {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+    .mg-video-intro-img-shape {
+        left: 0px;
+        bottom: -90px;
+    }
+
+    .mg-video-intro-img-right-shape {
+        top: -90px;
+        right: -40px;
+    }
+
+    .mg-pricing-plan-table {
+        padding: 50px;
+        margin: 0;
+    }
+
+    .mg-pricing-plan-features .mg-btn-simple {
+        margin-top: 30px;
+    }
+
+    .mg-pricing-plan-features ul li {
+        font-size: 16px;
+    }
+
+    .mg-subscribe-newsletter {
+        padding: 90px 50px;
+    }
+
+    .mg-subscribe-text p br {
+        display: none;
+    }
+
+
+    /* ======================================= */
+    /* =========== Product Landing =========== */
+    /* ======================================= */
+
+    .product-landing-image-bottom-shape {
+        display: block;
+        right: 0px;
+    }
+
+    .feature-v3 .mg-product-landing-feature {
+        padding: 70px 50px;
+    }
+
+    .mg-features-wrap.feature-v3 {
+        padding-top: 50px;
+    }
+
+    .feature-v3 .mg-feature-img {
+        margin-top: 0;
+    }
+
+    .mg-features-wrap.feature-v3 .mg-feature-img-wrapper img {
+        max-width: 100%;
+    }
+
+    .mg-product-demo-image-hide {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .mg-product-demo-image {
+        display: block;
+    }
+
+    .mg-product-demo-image.image-two {
+        right: 75px;
+        top: -15px;
+    }
+
+    .mg-product-demo-image.image-one {
+        left: 55px;
+        top: 200px;
+    }
+
+    .mg-product-demo-image.image-three {
+        left: 185px;
+        bottom: 20px;
+    }
+
+    .product-display-top-shape,
+    .product-display-middle-shape,
+    .mg-video-intro-left-shape,
+    .mg-product-more-detail-content p br {
+        display: block;
+    }
+
+    .product-display-top-shape .circle-dot-left {
+        left: 70px;
+        top: 100px;
+    }
+
+    .product-display-top-shape .circle-dot-right {
+        right: 150px;
+        top: 170px;
+    }
+
+    .product-display-middle-shape .triangle-shape-left {
+        top: 85%;
+        left: 110px;
+    }
+
+    .product-display-middle-shape .triangle-shape-right {
+        top: 70%;
+        right: 50px;
+    }
+
+
+    /* =================================== */
+    /* ========= Digital Landing ========= */
+    /* =================================== */
+
+    .mg-dl-banner-left-shape .circle-dot-left,
+    .mg-dl-banner-left-shape .triangle-shape-left,
+    .mg-dl-banner-left-shape .circle-dot-right,
+    .mg-dl-banner-right-shape .triangle-shape-right {
+        display: block;
+        z-index: 1;
+    }
+
+    .mg-about-us-text-left p {
+        display: none;
+    }
+
+    .mg-free-trial-text .list-plain {
+        margin: 0;
+    }
+
+    .mg-services-wrap .why-choice-options.option-one,
+    .mg-services-wrap .why-choice-options.option-two {
+        margin-bottom: 30px !important;
+    }
+
+    .mg-services-img-wrap {
+        padding-bottom: 0;
+    }
+
+    .mg-services-wrap .why-choice-options {
+        text-align: left;
+    }
+
+    .mg-single-project-text h3 {
+        font-size: 22px;
+    }
+
+    .mg-creative-team-container {
+        margin-top: 0;
+    }
+
+    .mg-creative-team {
+        padding: 100px;
+    }
+
+    .mg-creative-team-text h3 {
+        font-size: 50px;
+    }
+
+    .mg-creative-team-text h3 br,
+    .mg-creative-team-text p br {
+        display: block;
+    }
+
+    .grid-item:last-child,
+    .grid-item:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+
+    /* =================================== */
+    /* =========== About Page ============ */
+    /* =================================== */
+
+    .mg-about-text-wrapper h1 {
+        font-size: 50px;
+    }
+
+
+    /* =================================== */
+    /* ============== Blog =============== */
+    /* =================================== */
+
+    .left-blog .mg-blog {
+        padding-right: 50px;
+    }
+    
+    .right-blog .mg-blog {
+        padding-left: 50px;
+    }
+
+    .mg-blog-sidebar {
+        margin-top: 0;
+    }
+
+    .right-blog .pagination-area {
+        padding-left: 50px;
+    }
+
+    .mg-blog-details-wrap {
+        padding: 50px;
+    }
+
+    /* ======================================= */
+    /* =============== Contact =============== */
+    /* ======================================= */
+
+    .mg-contact-details-wrap {
+        margin-top: -150px;
+        padding-bottom: 50px;
+    }
+
+    .mg-contact-area {
+        padding: 50px 0;
+    }
+    
+}
+
+/*
+ * // X-Large devices (large desktops, 1200px and up)
+ */
+
+@media (min-width: 1200px) {
+
+    .mg-app-landing-banner-wrap {
+        margin-bottom: 75px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0 80px 75px;
+    }
+
+    .mg-app-landing-banner-text h2 {
+        font-size: 85px;
+    }
+
+    .mg-app-landing-banner-right {
+        margin-left: 0;
+    }
+
+    .mg-features-wrap {
+        padding-bottom: 75px;
+    }
+
+    .mg-why-choose-wrap,
+    .mg-app-screenshot-wrap,
+    .mg-app-testimonial-wrap,
+    .mg-who-work-with-us {
+        padding: 75px 0;
+    }
+
+    .why-choice-options {
+        padding: 50px 40px;
+        margin-bottom: 0 !important;
+    }
+
+    .mg-why-choose-text {
+        margin-bottom: 65px;
+    }
+
+    .mg-features-wrap,
+    .mg-features-wrap.feature-one.feature-v2 {
+        padding-top: 125px;
+    }
+
+    .mg-feature-img-shape {
+        right: 60px;
+    }
+
+    .mg-features-text-wrapper h3,
+    .mg-download-app-text h3,
+    .mg-subscribe-text h3,
+    .mg-app-testimonial-text h2 {
+        font-size: 70px;
+    }
+
+    .mg-download-app-wrap {
+        margin: 75px 0;
+    }
+
+    .mg-download-app-text {
+        padding: 150px 0;
+    }
+
+    .mg-download-app-screenshot img {
+        max-width: 65%;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: -3.5%;
+    }
+    
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: -3.5%;
+    }
+
+    .who-work-with-us-col:not(:last-child) {
+        border-right: 1px solid rgba(0, 0, 0, .2)
+    }
+
+    .mg-subscribe-newsletter-wrap.is-full-width {
+        padding: 150px 0 140px;
+        margin-top: 75px;
+    }
+
+    .mg-footer-wrap {
+        padding: 100px 0 125px;
+    }
+
+    /* =================================== */
+    /* ========== SaaS Landing =========== */
+    /* =================================== */
+
+    .mg-saas-landing-banner-wrap {
+        padding-top: 150px;
+        padding-bottom: 125px;
+        /* margin-top: 100px; */
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .mg-saas-landing-banner-bg img {
+        height: 80vh;
+    }
+
+    .saas-landing-top-shape .circle-dot-left {
+        left: 300px;
+        top: 140px;
+    }
+    
+    .saas-landing-top-shape .circle-dot-right {
+        right: 300px;
+        top: 170px;
+    }
+
+    .saas-landing-middle-shape .triangle-shape-left {
+        top: 360px;
+        left: 350px;
+    }
+    
+    .saas-landing-middle-shape .triangle-shape-right {
+        top: 390px;
+        right: 350px;
+    }
+
+    .mg-saas-banner-img-right-shape {
+        right: -40px;
+        bottom: -120px;
+    }
+
+    .mg-who-work-with-us.has-top-element {
+        padding-top: 75px;
+    }
+
+    .mg-why-choose-v2 .why-choice-options-img-wrap:after, 
+    .mg-why-choose-bottom-shape,
+    .feature-v2 .mg-features-text-wrapper ul,
+    .mg-free-trial-text h3 br,
+    .mg-pricing-plan-small-description,
+    .mg-pricing-plan-bottom-shape,
+    .mg-subscribe-text p br,
+    .mg-saas-banner-img-left-shape,
+    .mg-saas-banner-img-right-shape,
+    .saas-landing-bottom-shape .circle-dot-bottom-right,
+    .mg-why-choose-left-shape,
+    .mg-video-intro-img-right-shape,
+    .mg-video-intro-img-shape {
+        display: block;
+    }
+
+    .mg-free-trial-wrap,
+    .mg-video-intro-wrap {
+        padding: 75px 0;
+    }
+
+    .mg-free-trial-text h3 {
+        font-size: 70px;
+    }
+
+    .mg-testimonial-slider-wrap,
+    .mg-pricing-plan-wrap {
+        padding: 75px 0;
+    }
+
+    .mg-video-intro-img-right-shape {
+        top: -90px;
+        right: -40px;
+    }
+
+    .mg-pricing-plan-features ul li {
+        padding-left: 35px;
+        font-size: inherit;
+    }
+
+    .mg-video-intro {
+        padding: 100px 70px;
+    }
+
+    .mg-subscribe-newsletter {
+        padding: 150px 110px;
+    }
+
+    .mg-free-trial {
+        padding: 100px;
+    }
+
+    .mg-free-trial-text {
+        padding-left: 80px;
+    }
+
+
+
+    /* ======================================= */
+    /* =========== Product Landing =========== */
+    /* ======================================= */
+
+    .mg-product-landing-banner-wrap {
+        padding-bottom: 75px;
+    }
+
+    .mg-product-landing-banner-button {
+        margin-top: 70px;
+    }
+
+    .product-landing-top-shape .circle-dot-left,
+    .product-display-top-shape .circle-dot-left {
+        left: 300px;
+        top: 140px;
+    }
+    
+    .product-landing-top-shape .circle-dot-right,
+    .product-display-top-shape .circle-dot-right {
+        right: 300px;
+        top: 170px;
+    }
+    
+    .product-landing-middle-shape .triangle-shape-left,
+    .product-display-middle-shape .triangle-shape-left {
+        top: 500px;
+        left: 430px;
+    }
+    
+    .product-landing-middle-shape .triangle-shape-right,
+    .product-display-middle-shape .triangle-shape-right {
+        top: 520px;
+        right: 420px;
+    }
+
+    .product-landing-image-bottom-shape {
+        right: 60px;
+    }
+
+    .mg-features-wrap.feature-v3 {
+        padding-top: 175px;
+    }
+
+    .feature-v3 .mg-product-landing-feature {
+        padding: 70px 100px;
+    }
+
+    .feature-v3 .mg-feature-img {
+        margin-top: -180px;
+    }
+
+    .mg-product-display-wrap,
+    .mg-product-video-intro-wrap {
+        padding: 75px 0;
+    }
+
+    .mg-product-demo-image.image-one {
+        left: 205px;
+        top: 150px;
+    }
+    
+    .mg-product-demo-image.image-two {
+        right: 255px;
+        top: 0;
+    }
+    
+    .mg-product-demo-image.image-three {
+        left: 345px;
+        bottom: 0px;
+    }
+
+    .feature-v3 .mg-features-text-wrapper p br {
+        display: block;
+    }
+
+    .mg-product-more-detail-info-wrap,
+    .mg-subscribe-newsletter-wrap {
+        padding-top: 75px;
+    }
+
+    .mg-product-more-detail-info-wrap {
+        padding-bottom: 150px;
+    }
+
+
+
+    /* ======================================= */
+    /* =========== Digital Landing =========== */
+    /* ======================================= */
+
+    .mg-digital-landing-banner-wrap {
+        padding-bottom: 100px;
+        margin-bottom: 75px;
+    }
+
+    .mg-about-us-wrap,
+    .mg-services-wrap,
+    .mg-dl-video-intro-wrap,
+    .mg-recent-project-wrap,
+    .mg-creative-team-wrap,
+    .mg-latest-stories-wrap,
+    .mg-subscribe-newsletter-wrap-simple,
+    .mg-footer-wrap.footer-orange {
+        padding: 75px 0;
+    }
+
+    .mg-footer-orange .mg-footer-text {
+        margin-top: 0;
+    }
+
+    .mg-footer-wrap.footer-orange {
+        padding: 75px 0;
+    }
+
+    .mg-about-us-text-left p {
+        display: none;
+    }
+
+    .mg-digital-landing-banner-text h2 {
+        font-size: 85px;
+        font-family: 'Lora', serif;
+        font-weight: 400;
+    }
+
+    .mg-digital-landing-banner-text p br,
+    .mg-about-us-text-left h2 br {
+        display: block;
+    }
+
+    .mg-creative-team-text h3 {
+        font-size: 70px;
+    }
+
+    .mg-single-stories-details-wrap {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .single-story-one .single-stories-date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+
+    .mg-single-stories.single-story-one {
+        margin-bottom: 0;
+    }
+
+    .mg-subscribe-form-simple {
+        width: 35%;
+    }
+
+    .mg-subscribe-newsletter-circle-dot-top-left {
+        left: 170px;
+        top: 0;
+    }
+    
+    .mg-subscribe-newsletter-circle-dot-bottom-left {
+        left: 250px;
+        bottom: 50px;
+    }
+    
+    .mg-subscribe-newsletter-shape-middle-right {
+        right: 150px;
+        top: 20%;
+    }
+
+
+    /* =================================== */
+    /* =========== About Page ============ */
+    /* =================================== */
+
+    .mg-about-wrap {
+        padding-top: 150px;
+        padding-bottom: 185px;
+    }
+
+    .mg-about-img-wrapper {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+
+    .mg-about-text-wrapper h1 {
+        font-size: 82px;
+    }
+
+    .mg-about-img-shape {
+        display: block;
+    }
+
+
+    /* ======================================= */
+    /* ================ Blog ================= */
+    /* ======================================= */
+
+    .mg-blog-wrap {
+        padding: 75px 0;
+    }
+
+
+    /* ======================================= */
+    /* =============== Contact =============== */
+    /* ======================================= */
+
+    .mg-contact-details-wrap {
+        padding-bottom: 75px;
+    }
+
+    .mg-contact-area {
+        padding: 75px 0;
+    }
+
+    .mg-contact-form form .submit {
+        width: 40%;
+    }
+}
+
+/*
+ * // XX-Large devices (larger desktops, 1400px and up)
+ */
+
+@media (min-width: 1600px) {
+    .app-landing-top-shape .circle-dot-right {
+        right: 250px;
+        top: 200px;
+    }
+
+    .mg-app-screenshot-wrap .swiper-next {
+        right: -7.5%;
+    }
+
+    .mg-app-screenshot-wrap .swiper-prev {
+        left: -7.5%;
+    }
+    
+    .mg-saas-banner-img-right-shape {
+        right: 0;
+        bottom: -40px;
+    }
+
+    .mg-video-intro-img-right-shape {
+        top: -40px;
+        right: -90px;
+    }
+
+    .mg-digital-landing-banner-wrap {
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
